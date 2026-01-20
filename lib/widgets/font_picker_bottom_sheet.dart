@@ -125,7 +125,8 @@ class _FontPickerBottomSheetState extends State<FontPickerBottomSheet>
         lowerName.contains('consolas') ||
         lowerName.contains('source code') ||
         lowerName.contains('fira code') ||
-        lowerName.contains('jetbrains mono');
+        lowerName.contains('jetbrains mono') ||
+        lowerName.contains('sarasa');
   }
 
   void _groupFontsByFirstLetter(
